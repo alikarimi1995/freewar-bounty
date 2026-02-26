@@ -1,0 +1,12 @@
+
+<svg width="500" height="160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#0d1117"/>
+  <text x="40" y="35" font-size="22" fill="#ffffff">Most Wanted</text>
+  
+  <text x="40" y="60" font-size="18" fill="#ffffff">Spieler1</text>
+  <text x="420" y="60" font-size="18" fill="#FFD700" text-anchor="end">1600 Gold</text>
+  
+  <text x="40" y="95" font-size="18" fill="#ffffff">Spieler2</text>
+  <text x="420" y="95" font-size="18" fill="#FFD700" text-anchor="end">800 Gold</text>
+  
+</svg>
