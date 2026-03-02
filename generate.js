@@ -12,7 +12,7 @@ let entries = [];
 for (const [name, info] of Object.entries(data)) {
   const startDate = new Date(info.date);
   const days = daysBetween(startDate, today);
-  const current = info.start + (days * 100);
+  const current = info.start + (days * 200);
   entries.push({ name, current });
 }
 
@@ -29,7 +29,7 @@ for (const entry of entries) {
   rows += `
   <text x="40" y="${y}" font-size="18" fill="#ffffff">${entry.name}</text>
   <text x="460" y="${y}" font-size="18" fill="#FFD700" text-anchor="end">
-    ${entry.current} Gold (+100 pro Tag)
+    ${entry.current} Gold (+200 pro Tag)
   </text>
   `;
   y += 35;
